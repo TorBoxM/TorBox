@@ -386,7 +386,7 @@
   },
   "theme": {
     "title": "主题",
-    "description": "自定义应用的外观和感觉",
+    "description": "自定义应用外观",
     "mode": "主题模式",
     "system": "自动",
     "light": "浅色模式",
@@ -400,7 +400,7 @@
   },
   "language": {
     "title": "语言",
-    "description": "选择应用程序的显示语言",
+    "description": "选择应用程序语言",
     "system": "自动",
     "zh": "中文",
     "en": "English",
