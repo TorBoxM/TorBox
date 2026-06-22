@@ -160,7 +160,7 @@
     "nodes": "nodes",
     "rules": "rules",
     "permanent": "Permanent",
-    "clash_not_running": "Clash not running",
+    "clash_not_running": "Core not running",
     "loading_failed": "Loading failed: {error}",
     "all_sync_in_progress": "All providers are syncing ({count} items)",
     "no_providers_to_sync": "No providers to sync",
@@ -221,7 +221,7 @@
     "proxy_mode_direct_title": "Direct",
     "proxy_mode_system": "Use system proxy settings",
     "proxy_mode_system_title": "System Proxy",
-    "proxy_mode_core": "Via Clash core proxy",
+    "proxy_mode_core": "Via core proxy",
     "proxy_mode_core_title": "Core Proxy",
     "import_method_title": "Import Method",
     "import_link": "Link Import",
@@ -516,8 +516,8 @@
     "restart_vpn_hint": "Restart VPN to apply"
   },
   "clash_features": {
-    "title": "Clash Features",
-    "description": "Configure advanced Clash core features",
+    "title": "Core Features",
+    "description": "Configure advanced core features",
     "unified_delay": {
       "title": "Unified Delay",
       "description": "Use unified delay testing mechanism",
@@ -568,7 +568,7 @@
       "subtitle": "Send periodic probe packets to maintain long connections",
       "interval_label": "Send Interval",
       "interval_unit": "seconds",
-      "hint": "Recommended: 15-60 seconds. Too small will increase traffic consumption. Changes will automatically restart Clash",
+      "hint": "Recommended: 15-60 seconds. Too small will increase traffic consumption. Changes will automatically restart Core",
       "interval_error": "Please enter a valid interval in seconds (greater than 0)",
       "save_success": "TCP Keep-Alive settings saved",
       "save_failed": "Failed to save TCP Keep-Alive settings: {error}",
@@ -576,7 +576,7 @@
     },
     "log_level": {
       "title": "Core Log Level",
-      "subtitle": "Set Clash core log verbosity"
+      "subtitle": "Set core log verbosity"
     },
     "port_settings": {
       "title": "Port Settings",
@@ -739,7 +739,7 @@
     "understood": "Understood",
     "tun_enabled": "Tun Mode enabled",
     "tun_disabled": "Tun Mode disabled",
-    "tun_restarting": ", restarting Clash...",
+    "tun_restarting": ", restarting Core...",
     "tun_switch_failed": "Failed to switch Tun Mode",
     "scroll_left": "Scroll left",
     "scroll_right": "Scroll right",
@@ -885,8 +885,8 @@
     "copy_all_logs": "Copy All Logs",
     "empty_logs": "No logs",
     "empty_filtered": "No logs match the filter",
-    "clash_not_running": "Clash Not Running",
-    "start_clash_to_view_logs": "Start Clash to view real-time logs",
+    "clash_not_running": "Core Not Running",
+    "start_clash_to_view_logs": "Start Core to view real-time logs",
     "loading_logs": "Loading logs..."
   },
   "override": {
@@ -913,7 +913,7 @@
     "proxy_mode_title": "Update Proxy Mode",
     "proxy_mode_direct": "Direct connection without proxy",
     "proxy_mode_system": "Use system proxy settings",
-    "proxy_mode_core": "Use Clash core proxy",
+    "proxy_mode_core": "Use core proxy",
     "name_label": "Name",
     "name_hint": "e.g., Custom Rules",
     "name_error": "Please enter override name",
@@ -1014,7 +1014,7 @@
     "reset": "Reset Traffic",
     "proxy_address": "Proxy Address",
     "core_version": "Core Version",
-    "clash_info": "Clash Info",
+    "clash_info": "Core Info",
     "core_run_mode": "Run Mode",
     "service_mode": "Service Mode",
     "admin_mode": "Admin Mode",
@@ -1074,7 +1074,7 @@
   },
   "external_controller": {
     "title": "External Controller",
-    "description": "Allow external applications to control Clash via API",
+    "description": "Allow external applications to control Core via API",
     "address_label": "Controller Address",
     "address_hint": "127.0.0.1:9090",
     "address_error": "Controller address cannot be empty",
@@ -1082,7 +1082,7 @@
     "secret_label": "Secret",
     "secret_hint": "Recommended",
     "secret_error": "Secret cannot be empty (recommended)",
-    "save_success": "External controller configuration saved, will take effect after restarting Clash",
+    "save_success": "External controller configuration saved, will take effect after restarting Core",
     "save_failed": "Save failed: {error}",
     "copy_address": "Copy Address",
     "copy_secret": "Copy Secret",
