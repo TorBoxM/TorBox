@@ -1,2 +1,2 @@
  🌟 Stelliberty
-[![English](https://img.shields.io/badge/English-red)](README.md)
+[🌟 Stelliberty](https://github.com/Kindness-Kismet/Stelliberty)
