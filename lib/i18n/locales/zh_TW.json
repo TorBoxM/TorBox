@@ -385,7 +385,7 @@
   },
   "theme": {
     "title": "主題",
-    "description": "自訂應用程式的外觀和感覺",
+    "description": "自訂應用程式外觀",
     "mode": "主題模式",
     "system": "自動",
     "light": "淺色模式",
@@ -399,7 +399,7 @@
   },
   "language": {
     "title": "語言",
-    "description": "選擇應用程式的顯示語言",
+    "description": "選擇應用程式語言",
     "system": "自動",
     "zh": "中文",
     "en": "English",
