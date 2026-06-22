@@ -1,2 +1,2 @@
 
-[🌟 Stelliberty](https://github.com/Kindness-Kismet/Stelliberty)
+(https://github.com/Kindness-Kismet/Stelliberty)
