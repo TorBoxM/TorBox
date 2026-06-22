@@ -159,7 +159,7 @@
     "nodes": "節點",
     "rules": "規則",
     "permanent": "永久",
-    "clash_not_running": "Clash 未執行",
+    "clash_not_running": "核心未執行",
     "loading_failed": "載入失敗: {error}",
     "all_sync_in_progress": "所有提供者都在同步中 ({count}個)",
     "no_providers_to_sync": "沒有需要同步的提供者",
@@ -220,7 +220,7 @@
     "proxy_mode_direct_title": "直接連線",
     "proxy_mode_system": "使用系統配置的代理",
     "proxy_mode_system_title": "系統代理",
-    "proxy_mode_core": "透過 Clash 核心代理",
+    "proxy_mode_core": "透過核心代理",
     "proxy_mode_core_title": "核心代理",
     "import_method_title": "匯入方式",
     "import_link": "連結匯入",
@@ -515,8 +515,8 @@
     "restart_vpn_hint": "重啟 VPN 後生效"
   },
   "clash_features": {
-    "title": "Clash 特性",
-    "description": "設定 Clash 核心的進階功能",
+    "title": "核心特性",
+    "description": "設定核心的進階功能",
     "unified_delay": {
       "title": "統一延遲",
       "description": "使用統一的延遲測試機制",
@@ -567,7 +567,7 @@
       "subtitle": "定期傳送探測封包維持長連線",
       "interval_label": "傳送間隔",
       "interval_unit": "秒",
-      "hint": "建議值：15-60 秒，過小會增加流量消耗。修改後將自動重新啟動 Clash",
+      "hint": "建議值：15-60 秒，過小會增加流量消耗。修改後將自動重新啟動核心",
       "interval_error": "請輸入有效的間隔秒數（大於 0）",
       "save_success": "TCP 保持連線設定已儲存",
       "save_failed": "儲存 TCP 保持連線設定失敗: {error}",
@@ -575,7 +575,7 @@
     },
     "log_level": {
       "title": "核心記錄等級",
-      "subtitle": "設定 Clash 核心記錄詳細程度"
+      "subtitle": "設定核心記錄詳細程度"
     },
     "port_settings": {
       "title": "連接埠設定",
@@ -749,7 +749,7 @@
     "understood": "知道了",
     "tun_enabled": "虛擬網卡已啟用",
     "tun_disabled": "虛擬網卡已停用",
-    "tun_restarting": "，正在重新啟動 Clash...",
+    "tun_restarting": "，正在重新啟動核心...",
     "tun_switch_failed": "切換虛擬網卡失敗",
     "test_delay": "測試延遲",
     "locate": "定位",
@@ -883,8 +883,8 @@
     "copy_all_logs": "複製所有記錄",
     "empty_logs": "暫無記錄",
     "empty_filtered": "沒有符合篩選條件的記錄",
-    "clash_not_running": "Clash 未執行",
-    "start_clash_to_view_logs": "啟動 Clash 後即可檢視即時記錄",
+    "clash_not_running": "核心未執行",
+    "start_clash_to_view_logs": "啟動核心後即可檢視即時記錄",
     "loading_logs": "載入記錄中..."
   },
   "override": {
@@ -911,7 +911,7 @@
     "proxy_mode_title": "更新代理模式",
     "proxy_mode_direct": "不使用代理直接連線",
     "proxy_mode_system": "使用系統代理設定",
-    "proxy_mode_core": "使用 Clash 核心代理",
+    "proxy_mode_core": "使用核心代理",
     "name_label": "配置名稱",
     "name_hint": "例如：自訂規則",
     "name_error": "請輸入配置名稱",
@@ -1011,7 +1011,7 @@
     "reset": "重設流量統計",
     "proxy_address": "代理位址",
     "core_version": "核心版本",
-    "clash_info": "Clash 資訊",
+    "clash_info": "核心資訊",
     "core_run_mode": "執行模式",
     "service_mode": "服務模式",
     "admin_mode": "管理員模式",
@@ -1071,7 +1071,7 @@
   },
   "external_controller": {
     "title": "外部控制器",
-    "description": "允許外部應用程式透過 API 控制 Clash",
+    "description": "允許外部應用程式透過 API 控制核心",
     "address_label": "控制器位址",
     "address_hint": "127.0.0.1:9090",
     "address_error": "控制器位址不能為空",
@@ -1079,7 +1079,7 @@
     "secret_label": "密鑰 (Secret)",
     "secret_hint": "建議設定",
     "secret_error": "密鑰不能為空（建議設定）",
-    "save_success": "外部控制器設定已儲存，重新啟動 Clash 後生效",
+    "save_success": "外部控制器設定已儲存，重新啟動核心後生效",
     "save_failed": "儲存失敗: {error}",
     "copy_address": "複製位址",
     "copy_secret": "複製密鑰",
