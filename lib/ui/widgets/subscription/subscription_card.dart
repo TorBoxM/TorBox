@@ -326,11 +326,6 @@ class SubscriptionCard extends StatelessWidget {
   ) {
     final items = <PopupMenuItemData>[
       PopupMenuItemData(
-        icon: Icons.account_tree_outlined,
-        label: trans.subscription.menu.chain_proxy_manage,
-        onPressed: onManageChainProxy,
-      ),
-      PopupMenuItemData(
         icon: Icons.edit,
         label: trans.subscription.menu.config_edit,
         onPressed: onEdit,
