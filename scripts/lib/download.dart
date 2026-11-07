@@ -240,7 +240,7 @@ Future<void> _downloadSingleGeoFile({
 // 下载 GeoIP 数据文件（并发下载，带重试机制）
 Future<void> downloadGeoData({required String targetDir}) async {
   const baseUrl =
-      'https://geo.muix.workers.dev';
+      'https://geo.wsio.workers.dev';
 
   // 文件映射：下载URL文件名 -> 本地文件名
   final files = {
