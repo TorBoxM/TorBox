@@ -22,6 +22,7 @@ import 'package:rinf/rinf.dart';
 
 // 虚拟网卡网络栈类型枚举
 enum TunStack {
+  mips('mips', 'Mips'),
   mixed('mixed', 'Mixed'),
   gvisor('gvisor', 'gVisor'),
   system('system', 'System');
