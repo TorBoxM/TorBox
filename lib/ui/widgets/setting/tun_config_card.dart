@@ -24,8 +24,8 @@ import 'package:rinf/rinf.dart';
 enum TunStack {
   mips('mips', 'Mips'),
   mixed('mixed', 'Mixed'),
-  gvisor('gvisor', 'gVisor'),
-  system('system', 'System');
+  system('system', 'System'),
+  gvisor('gvisor', 'gVisor');
 
   const TunStack(this.value, this.displayName);
 
