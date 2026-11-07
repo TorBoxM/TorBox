@@ -394,7 +394,7 @@ class ClashPreferences {
   Future<void> setTunEnable(bool enabled) => _setBool(_kTunEnable, enabled);
 
   // 获取虚拟网卡网络栈类型
-  String getTunStack() => _getString(_kTunStack, 'mixed');
+  String getTunStack() => _getString(_kTunStack, 'mips');
 
   // 保存虚拟网卡网络栈类型
   Future<void> setTunStack(String stack) => _setString(_kTunStack, stack);
